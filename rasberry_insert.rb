@@ -1,2 +1,2 @@
 fruits = ['apples', 'oranges', 'bananas', 'pomegranates', 'grapes']
-puts fruits.grep(/g/)
+print fruits.insert(1, 'rasberries')

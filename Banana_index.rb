@@ -1,5 +1,3 @@
 fruits = ['apples', 'oranges', 'bananas', 'pomegranates', 'grapes']
+print fruits[2].upcase
 
-fruits.each do |fruit|
-  puts fruit.upcase
-end

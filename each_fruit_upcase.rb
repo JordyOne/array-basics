@@ -1,2 +1,5 @@
 fruits = ['apples', 'oranges', 'bananas', 'pomegranates', 'grapes']
-puts fruits[2]
+
+fruits.each do |fruit|
+  print fruit.upcase + ' '
+end
