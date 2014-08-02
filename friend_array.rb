@@ -1,12 +1,11 @@
 friends = []
-name = " "
 
-while !name.empty?
-  puts "Give me names!!"
-  name = gets.chomp.downcase
-  if !name.empty?
-    friends.push(name)
-  end
+
+while true
+name = gets.chomp
+if name.empty?
+  p friends
+  break
 end
-
-print friends
+friends << name
+end

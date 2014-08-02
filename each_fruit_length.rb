@@ -1,5 +1,8 @@
 fruits = ['apples', 'oranges', 'bananas', 'pomegranates', 'grapes']
+arr = []
 
 fruits.each do |fruit|
-  print fruit.length.to_s + ' '
+  arr << fruit.length
 end
+
+p arr
